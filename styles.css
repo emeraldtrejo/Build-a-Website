@@ -80,6 +80,12 @@ body, input, select, textarea, button {
   width: 1px;
 }
 
+.hide-text {
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 /*
 --General Use
 */
@@ -126,4 +132,12 @@ body, input, select, textarea, button {
   padding: 0.2em;
   margin: 0.8em 0;
   border-radius: 1em;
+}
+
+.search-field input{
+  background: transparent;
+  border: 0;
+  width: 9em;
+  padding: .2em .4em;
+  font-size: 0.875em;
 }
