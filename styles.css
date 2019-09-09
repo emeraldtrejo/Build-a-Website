@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {font-weight:normal;}
 img, fieldset{border:0;}
 img {max-width: 100%; vertical-align: middle;}
 button {cursor: pointer;}
-
+ul {list-style: none;}
 
 /*
 --Typography
@@ -81,6 +81,18 @@ body, input, select, textarea, button {
 
     .site-navigation {
       float: left;
+}
+
+  .site-navigation li {
+     display: inline-block;
+}
+
+  .site-navigation a {
+     display: block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.2em .8em;
+    margin: .8em 0;
 }
 /*search*/
 
