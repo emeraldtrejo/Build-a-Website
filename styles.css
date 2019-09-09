@@ -58,6 +58,29 @@ body, input, select, textarea, button {
 }
 
 /* content */
+
+section {
+  margin-bottom: 2em; 
+}
+
+/* only headings that are direct child elements of section will ge tthis element*/
+section > h2 {
+  text-transform: uppercase;
+  color: #6f6f6f;
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-size: 1.5em; /* 24/16 */
+}
+
+/* content */
+.work-list {
+ text-align: center; 
+}
+
+.work-list li {
+ display: inline-block;
+}
+
   /* features*/
   .features {
   margin-top: 3em;   
