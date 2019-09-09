@@ -57,6 +57,13 @@ body, input, select, textarea, button {
 }
 /*
 --General Use
-
-
 */
+
+.group:before, .group.after {
+ content: "";
+  display: table;
+}
+
+.group:after {
+ clear: both; 
+}
