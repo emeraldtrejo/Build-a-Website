@@ -56,6 +56,44 @@ body, input, select, textarea, button {
   float: right;
   margin-top: 2em;
 }
+
+/* footer */
+.footer-outer {
+  background: #eb6841;
+}
+
+.site-footer {
+  padding: 2em 0; 
+}
+
+.site-footer, .site-footer a {
+  color: #FFF;
+}
+
+/* footer-about */
+
+.footer-about {
+ float: left; 
+  width: 42.553191489361%; /* 400/940 */
+}
+
+.footer-about h2 {
+  text-transform:uppercase;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+.footer-about p{
+  line-height: 2em;
+  font-size: 0.875em;
+}
+
+/* footer-social */
+
+/* footer-navigation */
+
+/* footer- */
+
 /*
 --General Use
 */
