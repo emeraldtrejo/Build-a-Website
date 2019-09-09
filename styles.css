@@ -141,3 +141,11 @@ body, input, select, textarea, button {
   padding: .2em .4em;
   font-size: 0.875em;
 }
+
+.search-field button {
+ background: transparent url(../images/icon_search_small.png) no-repeat center center;
+  border: 0;
+  width: 2em;
+  height: 1.5em;
+}
+
