@@ -124,10 +124,49 @@ display: inline-block;
   background-color: #d43636;
 }
 
+.footer-social a:hover {
+ box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  
+}
+
 
 /* footer-navigation */
 
-/* footer- */
+.footer-navigation {
+  float: left;
+  opacity: 0.5;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.footer-navigation li {
+  display: inline-block;
+}
+
+.footer-navigation a {
+  text-decoration: none;
+}
+
+.footer-navigation a:hover {
+  text-decoration: underline; 
+}
+
+.footer-navigation li:after {
+ content: " / ";
+}
+
+.footer-navigation li:last-child:after {
+  content: " ";
+}
+
+/* footer-copyright */
+
+.footer-copyright{
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+}
 
 /*
 --General Use
