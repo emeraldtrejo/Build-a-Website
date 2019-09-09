@@ -68,3 +68,22 @@ body, input, select, textarea, button {
 .group:after {
  clear: both; 
 }
+
+/*
+--General Use
+*/
+
+.navigation-outer{
+  background: #00a0b0;
+}
+
+/* main navigation*/
+
+    .site-navigation {
+      float: left;
+}
+/*search*/
+
+    .site-search {
+      float:right;
+}
