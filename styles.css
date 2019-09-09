@@ -117,8 +117,27 @@ body, input, select, textarea, button {
 .slideshow-pager a {
  display: block;
 }
-    /* welcome text*/
 
+.slideshow-pager a:hover, .slideshow-pager a.active {
+ background: #eb6841;
+}
+    /* welcome text*/
+.welcome-text {
+ text-align: center; 
+}
+
+.welcome-text p{
+ font-size: 0.875em;
+  color: #ababab;
+  margin-bottom: 0.2em;
+}
+
+.welcome-text p strong{
+  font-weight: normal;
+  color: #6f6f6f;
+  font-size: 1.857142857em; /* 26/14 */
+  line-height: 1.5em;
+}
 
 
 /* footer */
