@@ -414,6 +414,39 @@ fieldset.group .field:last-child {
   box-sizing: border-box;
 }
 
+.input-field label, .input-field input {
+  height: 2.8125em; /* 45/16 */
+}
+
+.input-field label {
+  width: 18.66667%; /*56/300 */
+  float: left;
+  color: #FFF;
+  background: #CCC no-repeat center center;
+  border-radius: 0.2em 0 0 0.2em;
+}
+
+.input-field input {
+  width: 81.3333333333%; /* 244/300 */
+  float: right;
+  background: #f1f1f1;
+  font-weight: bold;
+  padding: 0.5em;
+  border: 0;
+  color: #6f6f6f;
+    
+}
+
+.name-field label {
+  background-color: #21b7c6;
+  background-image: url(../images/icon_person_small.png);
+}
+
+.email-field label {
+  background-color: #eb6841;
+  background-image: url(../images/icon_mail_small.png);
+}
+
 /* footer-social */
 
 .footer-social {
