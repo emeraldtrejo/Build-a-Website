@@ -79,11 +79,59 @@ section > h2 {
 
 .work-list li {
  display: inline-block;
+  width: 10.6875em;
+  margin: 0 1.2em;
+  vertical-align: top;
+}
+
+.work-list a {
+ display: block;
+  text-decoration: none;
+  position: relative;
+}
+
+.work-list img {
+  /*this border radius makes the images appear round */
+ border-radius: 6em;
+  display:block;
+  margin-bottom: 1em;
+}
+
+
+.work-list h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6e6e6e;
+  font-size: 1em;
+}
+
+.work-list p {
+  font-style: italic;
+  color: #ababab;
+  font-size: 0.875em;
+  line-height: 1.5em;
+}
+
+.work-list li:hover h3 {
+  color: #eb6841;
+}
+
+/*so the element can appear on the page*/
+.work-list li:hover a:after  {
+ content: " ";
+  /*will position view icon in the middle of the psuedo element*/
+  background: rgba(235, 104,65,0.5) url(../images/icon_view_big_png) no-repeat center center;
+  width: 10.6875em;
+  height: 10.6875em;
+  border-radius: 6em;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
   /* features*/
   .features {
-  margin-top: 3em;   
+  margin-top: 3em; 
 }
 
     /*slideshow */
