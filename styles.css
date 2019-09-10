@@ -393,6 +393,26 @@ testimonial-list li {
  widht: 64.957%;
 }
 
+/*form*/
+
+.field {
+ margin-bottom: 1em; 
+}
+
+fieldset.group .field {
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+}
+
+fieldset.group .field:last-child {
+  margin-right: 0;
+}
+
+.input-field label, .input-field input, .textarea-field textarea {
+  display: block;
+  box-sizing: border-box;
+}
 
 /* footer-social */
 
