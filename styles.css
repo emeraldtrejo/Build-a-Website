@@ -31,7 +31,9 @@ body, input, select, textarea, button {
 --Structure
 */
 .site-header, .navigation-bar, .site-content, .site-footer{
-  width: 58.75em; /* to calculate 980 / 16 */
+  /*width: 58.75em; */ /* to calculate 980 / 16 */
+  max-width: 58.75em;
+  min-width: 20em;
   margin: auto; 
 }
 /*header*/
