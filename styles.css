@@ -239,6 +239,58 @@ left: 0;
   line-height: 1.5em;
 }
 
+/*latest posts */
+.post-list a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+}
+
+.post-list li {
+  float: left;
+  width: 46.5%;
+  background: #21b7c6;
+}
+
+.post-text, .post-image {
+  width: 50%;
+ float: left;
+}
+
+
+/* only tag 2,4,6th list item*/
+.post-list li:nth-child(even) {
+  float: right;
+  background: #eb6841;
+}
+
+.post-text {
+    padding: 1.25em 1.8em;
+    box-sizing: border-box;
+}
+
+.post-text h3 {
+    text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+.post-text time {
+    display: block;
+  margin: 0.5em 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .75em
+}
+
+.post-text a:hover h3 {
+   text-decoration: underline;
+}
+
+.post-text {
+    padding: 1.25em 1.8em;
+    box-sizing: border-box;
+}
 
 /* footer */
 .footer-outer {
@@ -251,6 +303,59 @@ left: 0;
 
 .site-footer, .site-footer a {
   color: #FFF;
+}
+
+/* testimonials */
+
+testimonial-list li {
+  background: #f5f5f5;
+  display: table;
+}
+
+.testimonial-text, .testimonial-image {
+ display: table-cell;
+  box-sizing: border-box;
+}
+
+.testimonial-text {
+ width: 74.46808510638298% /*700/940*/
+   padding: 2.5em; 
+}
+
+.testimonial-text h3 {
+    font-size: 1.125em;
+  color: #eb6841;
+  margin-bottom: .8em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.testimonial-text p {
+    margin: 0;
+  color: #6f6f6f;
+}
+
+.testimonial-image p {
+  vertical-align: middle;
+  text-align: center;
+  background: #eb6841;
+  width: 25.53191489361702%; /*240/940 */
+  position: relative;
+}
+
+.testimonial-image img {
+  border-radius: 4em;
+}
+
+.testimonial-image:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  /* making the triangle/arrow */
+  border: 0.5em solid transparent;
+  border-right: 0.5em solid #eb6841;
+  top: 7.5em;
+  left: -1em;
 }
 
 /* footer-about */
@@ -270,6 +375,24 @@ left: 0;
   line-height: 2em;
   font-size: 0.875em;
 }
+
+/*get intouch */
+
+.get-in-touch-text{
+  float: left;
+  width: 29.78723404255319%; /*280/ 940*/ 
+}
+
+.get-in-touch p {
+ margin: 0; 
+  color: #6e6e6e;
+}
+
+.get-in-touch-form {
+ float: right;
+ widht: 64.957%;
+}
+
 
 /* footer-social */
 
