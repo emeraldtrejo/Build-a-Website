@@ -140,6 +140,11 @@ section > h2 {
 left: 0;
   background-image: url(../images/icon_arrow_left_small.png)
 }
+
+.work-list-next:hover, .work-list-previous:hover {
+  opacity: 0.8;
+}
+
 /*so the element can appear on the page*/
 .work-list li:hover a:after  {
  content: " ";
