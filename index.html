@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Eracle</title>
   
+  <meta name="description" content="Web Development services for small companies">
   
   //google fonts website google.com/fonts
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -12,7 +13,7 @@
   </head>
   <body>
   <div class="site">
-    <div class="header-outer">
+    <div role=banner class="header-outer">
     //will contain logo and tagline
     <header class="site-header group">
       
@@ -26,7 +27,7 @@
     </div>
     //contain main navigaiton and search bar
     <div class="navigation-outer">
-      <nav class="navigation-bar group">
+      <nav  role="navigation" class="navigation-bar group">
 
           <ul class="site-navigation">
               <li>
@@ -61,7 +62,7 @@
             </li>
         </ul>
 
-        <div class="site-search">
+        <div role="search" class="site-search">
             <form action="#" method="post">
               <div class="search-field">
                 <label class="hide-vis" for="search"> Search</label>
@@ -74,7 +75,7 @@
       
     </nav>
     </div>
-    <section class="site-content">
+    <section role="main" class="site-content">
     
       <section class="features">
         <div class="slideshow">
@@ -256,35 +257,35 @@
       </section>
     
     </section>
-    
-    <footer class="site-footer">
+    <div class="footer-outer">
+    <footer role="content-info" class="site-footer">
       <div class="group">                     
-            <div class="footer-about">
-                <h2> About Eracle </h2>      
+              <div class="footer-about">
+                  <h2> About Eracle </h2>      
 
-                    <p>
-                     This is a section that highlights what is imnportant about the about section
-                     </p>
-            </div>
+                      <p>
+                       This is a section that highlights what is imnportant about the about section
+                       </p>
+              </div>
 
-        <ul class="footer-social">
-             <li>
-              <a class="twitter hide-text"href="#">
-                 Twitter
-               </a>
-             </li>
-             <li>
-               <a class="facebook  hide-text" href="#">
-               Facebook
-               </a>
-             </li>
-              <li>
-               <a class="gplus  hide-text" href="#">
-               Google Plus
-               </a>
-             </li>
-           <ul>
-         </div>
+          <ul class="footer-social">
+               <li>
+                <a class="twitter hide-text"href="#">
+                   Twitter
+                 </a>
+               </li>
+               <li>
+                 <a class="facebook  hide-text" href="#">
+                 Facebook
+                 </a>
+               </li>
+                <li>
+                 <a class="gplus  hide-text" href="#">
+                 Google Plus
+                 </a>
+               </li>
+             <ul>
+          </div>
          <div class="group">                                 
            <ul class="footer-navigation">
                <li>
@@ -314,7 +315,7 @@
           </small>
       </div>                               
     </footer>
-  
+  </div> 
   
   
   </div>
