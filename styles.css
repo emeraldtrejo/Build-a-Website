@@ -116,6 +116,30 @@ section > h2 {
   color: #eb6841;
 }
 
+.work-list-wrapper {
+  position: relative;
+}
+
+.work-list-next, .work-list-previous {
+  position: absolute;
+  top: 4.3em;
+  color: #eb6841 no-repeat center center;
+  display: block;
+  text-decoration: none;
+  width: 1.875em;
+  height: 1.875em; /* 30/16 */
+  border-radius: 0.2em;
+}
+
+.work-list-next {
+  right: 0;
+  background-image: url(../images/icon_arrow_right_small.png);
+}
+
+.work-list-previous{
+left: 0;
+  background-image: url(../images/icon_arrow_left_small.png)
+}
 /*so the element can appear on the page*/
 .work-list li:hover a:after  {
  content: " ";
